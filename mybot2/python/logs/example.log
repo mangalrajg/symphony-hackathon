@@ -1,0 +1,668 @@
+2019-10-17 01:00:38,661 - root - DEBUG - Auth/authenticate()
+2019-10-17 01:00:38,665 - root - DEBUG - Auth/authenticate() --> needed to authenticate
+2019-10-17 01:00:38,665 - root - DEBUG - RSA_auth/get_session_token() function started
+2019-10-17 01:00:38,665 - root - DEBUG - RSA_auth/getJWT() function started
+2019-10-17 01:00:41,240 - root - DEBUG - RSA/session token success
+2019-10-17 01:00:41,240 - root - DEBUG - RSA_auth/get_keyauth()
+2019-10-17 01:00:41,240 - root - DEBUG - RSA_auth/getJWT() function started
+2019-10-17 01:00:42,889 - root - DEBUG - RSA_auth/get_keyauth() failed: 401
+2019-10-17 01:00:42,889 - root - DEBUG - RSA_auth/get_keyauth()
+2019-10-17 01:00:42,889 - root - DEBUG - RSA_auth/getJWT() function started
+2019-10-17 01:00:44,795 - root - DEBUG - RSA/keymanager token success
+2019-10-17 01:00:44,795 - root - INFO - DataFeedEventService/startDataFeed()
+2019-10-17 01:00:44,795 - root - DEBUG - DataFeedClient/create_datafeed()
+2019-10-17 01:00:47,538 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:01:18,062 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:01:18,062 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:01:23,054 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "mjSRRh3hk3Wz-KzvRctZ-X___pIp8oKPbQ",
+            "timestamp": 1571254271344,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>flagdeals</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222348233,
+                "firstName": "Mangalraj",
+                "lastName": "Gopinathan",
+                "displayName": "Mangalraj Gopinathan",
+                "email": "mangalraj.gopinathan@socgen.com",
+                "username": "mangalraj.gopinathan@socgen.com"
+            },
+            "stream": {
+                "streamId": "aMOd9HJj9EpCECGYgEmzdH___pIqLyKAdA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10665-Windows-10-Chrome-77.0.3865.120",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:01:23,058 - root - DEBUG - UserClient/get_session_user()
+2019-10-17 01:01:23,246 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:01:23,250 - root - DEBUG - msg_sent_handler function started
+2019-10-17 01:01:23,250 - root - DEBUG - room msg received
+2019-10-17 01:01:23,250 - root - DEBUG - insdie of process
+2019-10-17 01:01:23,258 - root - DEBUG - MessageClient/send_msg()
+2019-10-17 01:01:24,870 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:01:25,514 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "sExcr0Wj7B1yhhFAALXX6H___pIp8npbdA",
+            "timestamp": 1571254273449,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">           <br/>           <h2>Deals impacted by the market disruptive event</h2>                   <br/>           <form id=\"deals\">                   <table>             <tr>       <th>Deal ID</th>       <th>Underlying</th>       <th>Client</th>       <th>Notional</th>       <th>To Flag</th>    </tr>    <tr>       <td>#1</td>       <td>SS1</td>       <td>CITI</td>       <td>$20,000,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-1\" value=\"on\"/>           </td>    </tr>    <tr>       <td>#2</td>       <td>SS2</td>       <td>CITI</td>       <td>$17,500,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-2\" value=\"on\"/>           </td>    </tr>    <tr>       <td>#3</td>       <td>CC1</td>       <td>CITI</td>       <td>$4,500,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-3\" value=\"on\"/>           </td>    </tr>    <tr>       <td>#4</td>       <td>SS1</td>       <td>Client X</td>       <td>$1,500,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-4\" value=\"on\"/>           </td>    </tr>    <tr>       <td>#5</td>       <td>SS1</td>       <td>Client Y</td>       <td>$1,500,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-5\" value=\"on\"/>           </td>    </tr>    <tr>       <td>#6</td>       <td>SS1</td>       <td>Symphony</td>       <td>$10,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-6\" value=\"on\"/>           </td>    </tr>     </table>     <input type=\"text\" name=\"id1\" placeholder=\"Type OK\" required=\"true\"/>     <button type=\"reset\">Reset</button>                  <button type=\"action\" name=\"select-options\">Confirm</button>             </form>     </div>",
+            "user": {
+                "userId": 349026222345378,
+                "displayName": "firm1_hackathon_bot_147",
+                "email": "firm1_hackathon_bot_147@devmeetup.com",
+                "username": "firm1_hackathon_bot_147"
+            },
+            "stream": {
+                "streamId": "aMOd9HJj9EpCECGYgEmzdH___pIqLyKAdA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:01:25,514 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:01:55,450 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "k5kqvDESRqHqTo69xtWT0H___pIqvDR-dA"
+        },
+        "formStream": {
+            "streamId": "aMOd9HJj9EpCECGYgEmzdH///pIqLyKAdA=="
+        },
+        "formMessageId": "sExcr0Wj7B1yhhFAALXX6H///pIp8npbdA==4286",
+        "formId": "deals",
+        "formValues": {
+            "action": "select-options",
+            "tablesel-row-1": "on",
+            "tablesel-row-4": "on",
+            "id1": "OK"
+        }
+    }
+}
+2019-10-17 01:01:55,450 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:01:55,450 - root - DEBUG - elements_action_handler
+2019-10-17 01:01:55,454 - root - DEBUG - element submitted :
+2019-10-17 01:01:55,454 - root - DEBUG - {'id': '3Uwg3a', 'messageId': 'KMJIUPPGbhwWlTLA-gHxrX___pIp8gTXbQ', 'timestamp': 1571254303528, 'type': 'SYMPHONYELEMENTSACTION', 'initiator': {'user': {'userId': 349026222348233, 'firstName': 'Mangalraj', 'lastName': 'Gopinathan', 'displayName': 'Mangalraj Gopinathan', 'email': 'mangalraj.gopinathan@socgen.com', 'username': 'mangalraj.gopinathan@socgen.com'}}, 'payload': {'symphonyElementsAction': {'actionStream': {'streamId': 'k5kqvDESRqHqTo69xtWT0H___pIqvDR-dA'}, 'formStream': {'streamId': 'aMOd9HJj9EpCECGYgEmzdH///pIqLyKAdA=='}, 'formMessageId': 'sExcr0Wj7B1yhhFAALXX6H///pIp8npbdA==4286', 'formId': 'deals', 'formValues': {'action': 'select-options', 'tablesel-row-1': 'on', 'tablesel-row-4': 'on', 'id1': 'OK'}}}}
+2019-10-17 01:01:55,454 - root - DEBUG - entryaction
+2019-10-17 01:01:55,454 - root - DEBUG - entrytablesel-row-1
+2019-10-17 01:01:55,458 - root - DEBUG - entrytablesel-row-4
+2019-10-17 01:01:55,458 - root - DEBUG - entryid1
+2019-10-17 01:01:55,458 - root - DEBUG - MessageClient/send_msg()
+2019-10-17 01:02:01,098 - root - DEBUG - MessageClient/send_msg()
+2019-10-17 01:02:02,198 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:02:03,322 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "IV1SQujU4uk5PEZlTCCElX___pIp8gBUdA",
+            "timestamp": 1571254304688,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Flagging trades #1, #4 to be removed from DUT</div>",
+            "user": {
+                "userId": 349026222345378,
+                "displayName": "firm1_hackathon_bot_147",
+                "email": "firm1_hackathon_bot_147@devmeetup.com",
+                "username": "firm1_hackathon_bot_147"
+            },
+            "stream": {
+                "streamId": "aMOd9HJj9EpCECGYgEmzdH___pIqLyKAdA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:02:03,322 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:02:20,018 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "k5kqvDESRqHqTo69xtWT0H___pIqvDR-dA"
+        },
+        "formStream": {
+            "streamId": "aMOd9HJj9EpCECGYgEmzdH///pIqLyKAdA=="
+        },
+        "formMessageId": "8WVbMk0oYf5nJbdTuN7zMn///pIp8ekhdA==4301",
+        "formId": "hold_id",
+        "formValues": {
+            "action": "hold-button"
+        }
+    }
+}
+2019-10-17 01:02:20,022 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:02:20,022 - root - DEBUG - elements_action_handler
+2019-10-17 01:02:20,022 - root - DEBUG - element submitted :
+2019-10-17 01:02:20,022 - root - DEBUG - {'id': 'TzgiyD', 'messageId': 'Nax22bXB_lVrgzRwEAQYun___pIp8aORbQ', 'timestamp': 1571254328430, 'type': 'SYMPHONYELEMENTSACTION', 'initiator': {'user': {'userId': 349026222348233, 'firstName': 'Mangalraj', 'lastName': 'Gopinathan', 'displayName': 'Mangalraj Gopinathan', 'email': 'mangalraj.gopinathan@socgen.com', 'username': 'mangalraj.gopinathan@socgen.com'}}, 'payload': {'symphonyElementsAction': {'actionStream': {'streamId': 'k5kqvDESRqHqTo69xtWT0H___pIqvDR-dA'}, 'formStream': {'streamId': 'aMOd9HJj9EpCECGYgEmzdH///pIqLyKAdA=='}, 'formMessageId': '8WVbMk0oYf5nJbdTuN7zMn///pIp8ekhdA==4301', 'formId': 'hold_id', 'formValues': {'action': 'hold-button'}}}}
+2019-10-17 01:02:20,026 - root - DEBUG - MessageClient/send_msg()
+2019-10-17 01:02:20,937 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:02:21,761 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "cn19xr85NjQbIs9N-Rw0eX___pIp8aBwdA",
+            "timestamp": 1571254329236,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\"><p>Holding NAV</p></div>",
+            "user": {
+                "userId": 349026222345378,
+                "displayName": "firm1_hackathon_bot_147",
+                "email": "firm1_hackathon_bot_147@devmeetup.com",
+                "username": "firm1_hackathon_bot_147"
+            },
+            "stream": {
+                "streamId": "aMOd9HJj9EpCECGYgEmzdH___pIqLyKAdA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:02:21,765 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:02:30,493 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "A9uy_Kpt_QOF19BkM7-MAn___pIp8XqHdA",
+            "timestamp": 1571254338941,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">   <br/>   <h2>Late Price updated for following commodities</h2>   <form id=\"update_price\">   <table>      <tr>       <th>Comodity</th>       <th>Curency</th>       <th>Code</th>       <th>Price</th>    </tr>      <tr>       <th>Orange Juice</th>       <th>USD</th>       <th>OJX20</th>       <th><input type=\"text\" name=\"id1x\" placeholder=\"price\" required=\"true\" value=\"1.15\"/></th>    </tr>   </table>   <button type=\"action\" name=\"update-button\">Update Price</button>    </form>    </div>",
+            "user": {
+                "userId": 349026222347393,
+                "displayName": "firm2_hackathon_bots_147",
+                "email": "firm2_hackathon_bots_147@devmeetup.com",
+                "username": "firm2_hackathon_bots_147"
+            },
+            "stream": {
+                "streamId": "aMOd9HJj9EpCECGYgEmzdH___pIqLyKAdA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:02:30,493 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:02:30,493 - root - DEBUG - msg_sent_handler function started
+2019-10-17 01:02:30,497 - root - DEBUG - room msg received
+2019-10-17 01:02:30,497 - root - DEBUG - insdie of process
+2019-10-17 01:02:30,505 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:02:53,151 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "VWEVj-SzlfNC7KtTSJcMoX___pIp8SHldA",
+            "timestamp": 1571254361632,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\"><h2>Updating prices for </h2></div>",
+            "user": {
+                "userId": 349026222347393,
+                "displayName": "firm2_hackathon_bots_147",
+                "email": "firm2_hackathon_bots_147@devmeetup.com",
+                "username": "firm2_hackathon_bots_147"
+            },
+            "stream": {
+                "streamId": "aMOd9HJj9EpCECGYgEmzdH___pIqLyKAdA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:02:53,151 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:02:53,151 - root - DEBUG - msg_sent_handler function started
+2019-10-17 01:02:53,151 - root - DEBUG - room msg received
+2019-10-17 01:02:53,151 - root - DEBUG - insdie of process
+2019-10-17 01:02:53,155 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:02:58,935 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "IVyHIv8P_b4Eg_8E663JBH___pIp8QuHdA",
+            "timestamp": 1571254367357,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Update Successful. Starting NAV Process in 10 minutes                 <form id=\"hold_id\"><button type=\"action\" name=\"hold-button\">Hold</button></form></div>",
+            "user": {
+                "userId": 349026222347393,
+                "displayName": "firm2_hackathon_bots_147",
+                "email": "firm2_hackathon_bots_147@devmeetup.com",
+                "username": "firm2_hackathon_bots_147"
+            },
+            "stream": {
+                "streamId": "aMOd9HJj9EpCECGYgEmzdH___pIqLyKAdA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:02:58,939 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:02:58,939 - root - DEBUG - msg_sent_handler function started
+2019-10-17 01:02:58,939 - root - DEBUG - room msg received
+2019-10-17 01:02:58,939 - root - DEBUG - insdie of process
+2019-10-17 01:02:58,947 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:03:29,747 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:03:29,747 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:04:00,552 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:04:00,552 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:04:31,392 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:04:31,392 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:05:02,317 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:05:02,317 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:05:04,381 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "userJoinedRoom": {
+        "stream": {
+            "streamId": "aMOd9HJj9EpCECGYgEmzdH___pIqLyKAdA",
+            "streamType": "ROOM",
+            "roomName": "NAV Process",
+            "external": false,
+            "crossPod": false
+        },
+        "affectedUser": {
+            "userId": 349026222348329,
+            "firstName": "minzhe",
+            "lastName": "jiang",
+            "displayName": "minzhe jiang",
+            "email": "echo.jiang@sgcib.com",
+            "username": "echo.jiang@sgcib.com"
+        }
+    }
+}
+2019-10-17 01:05:04,381 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:05:04,385 - root - DEBUG - user_joined_room_handler
+2019-10-17 01:05:04,385 - root - DEBUG - USER JOINED ROOM
+2019-10-17 01:05:04,385 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:05:05,493 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "userJoinedRoom": {
+        "stream": {
+            "streamId": "aMOd9HJj9EpCECGYgEmzdH___pIqLyKAdA",
+            "streamType": "ROOM",
+            "roomName": "NAV Process",
+            "external": false,
+            "crossPod": false
+        },
+        "affectedUser": {
+            "userId": 349026222342912,
+            "firstName": "Remi",
+            "lastName": "Desreumaux",
+            "displayName": "Remi Desreumaux",
+            "email": "remi.desreumaux@sgcib.com",
+            "username": "remi.desreumaux@sgcib.com"
+        }
+    }
+}
+2019-10-17 01:05:05,497 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:05:05,497 - root - DEBUG - user_joined_room_handler
+2019-10-17 01:05:05,497 - root - DEBUG - USER JOINED ROOM
+2019-10-17 01:05:05,497 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:05:36,416 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:05:36,416 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:05:54,744 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "userJoinedRoom": {
+        "stream": {
+            "streamId": "aMOd9HJj9EpCECGYgEmzdH___pIqLyKAdA",
+            "streamType": "ROOM",
+            "roomName": "NAV Process",
+            "external": false,
+            "crossPod": false
+        },
+        "affectedUser": {
+            "userId": 349026222348352,
+            "firstName": "Fares",
+            "lastName": "SAKLI",
+            "displayName": "Fares SAKLI",
+            "email": "fares.sakli@sgcib.com",
+            "username": "fares.sakli@sgcib.com"
+        }
+    }
+}
+2019-10-17 01:05:54,744 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:05:54,744 - root - DEBUG - user_joined_room_handler
+2019-10-17 01:05:54,744 - root - DEBUG - USER JOINED ROOM
+2019-10-17 01:05:54,744 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:06:25,620 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:06:25,624 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:06:56,596 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:06:56,596 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:07:27,522 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:07:27,522 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:07:58,341 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:07:58,341 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:08:28,961 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:08:28,961 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:08:59,577 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:08:59,577 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:09:30,501 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:09:30,501 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:09:49,253 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "userJoinedRoom": {
+        "stream": {
+            "streamId": "REeNYFJItZeH4KBN5cwvyH___pIp60eodA",
+            "streamType": "ROOM",
+            "roomName": "Nav Reporting",
+            "external": false,
+            "crossPod": false
+        },
+        "affectedUser": {
+            "userId": 349026222345378,
+            "displayName": "firm1_hackathon_bot_147",
+            "email": "firm1_hackathon_bot_147@devmeetup.com",
+            "username": "firm1_hackathon_bot_147"
+        }
+    }
+}
+2019-10-17 01:09:49,253 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:09:49,253 - root - DEBUG - user_joined_room_handler
+2019-10-17 01:09:49,257 - root - DEBUG - USER JOINED ROOM
+2019-10-17 01:09:49,257 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:09:49,781 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "userJoinedRoom": {
+        "stream": {
+            "streamId": "REeNYFJItZeH4KBN5cwvyH___pIp60eodA",
+            "streamType": "ROOM",
+            "roomName": "Nav Reporting",
+            "external": false,
+            "crossPod": false
+        },
+        "affectedUser": {
+            "userId": 349026222348233,
+            "firstName": "Mangalraj",
+            "lastName": "Gopinathan",
+            "displayName": "Mangalraj Gopinathan",
+            "email": "mangalraj.gopinathan@socgen.com",
+            "username": "mangalraj.gopinathan@socgen.com"
+        }
+    }
+}
+2019-10-17 01:09:49,781 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:09:49,781 - root - DEBUG - user_joined_room_handler
+2019-10-17 01:09:49,781 - root - DEBUG - USER JOINED ROOM
+2019-10-17 01:09:49,781 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:09:49,781 - root - DEBUG - user_joined_room_handler
+2019-10-17 01:09:49,781 - root - DEBUG - USER JOINED ROOM
+2019-10-17 01:09:49,781 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:09:49,781 - root - DEBUG - user_joined_room_handler
+2019-10-17 01:09:49,785 - root - DEBUG - USER JOINED ROOM
+2019-10-17 01:09:49,785 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:10:20,678 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:10:20,678 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:10:27,106 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "5NvOPaG4qlAqd5d1DRwlpn___pIp6jVmbQ",
+            "timestamp": 1571254815385,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\" class=\"wysiwyg\"><p>flagdeals</p></div>",
+            "data": "{}",
+            "user": {
+                "userId": 349026222348329,
+                "firstName": "minzhe",
+                "lastName": "jiang",
+                "displayName": "minzhe jiang",
+                "email": "echo.jiang@sgcib.com",
+                "username": "echo.jiang@sgcib.com"
+            },
+            "stream": {
+                "streamId": "REeNYFJItZeH4KBN5cwvyH___pIp60eodA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "DESKTOP-40.0.0-10665-MacOSX-10.14.2-Chrome-77.0.3865.120",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:10:27,106 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:10:27,106 - root - DEBUG - msg_sent_handler function started
+2019-10-17 01:10:27,106 - root - DEBUG - room msg received
+2019-10-17 01:10:27,110 - root - DEBUG - insdie of process
+2019-10-17 01:10:27,114 - root - DEBUG - MessageClient/send_msg()
+2019-10-17 01:10:27,850 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:10:28,674 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "eSMFiAyHAePCZwxPLA4XeH___pIp6jFddA",
+            "timestamp": 1571254816422,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">           <br/>           <h2>Deals impacted by the market disruptive event</h2>                   <br/>           <form id=\"deals\">                   <table>             <tr>       <th>Deal ID</th>       <th>Underlying</th>       <th>Client</th>       <th>Notional</th>       <th>To Flag</th>    </tr>    <tr>       <td>#1</td>       <td>SS1</td>       <td>CITI</td>       <td>$20,000,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-1\" value=\"on\"/>           </td>    </tr>    <tr>       <td>#2</td>       <td>SS2</td>       <td>CITI</td>       <td>$17,500,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-2\" value=\"on\"/>           </td>    </tr>    <tr>       <td>#3</td>       <td>CC1</td>       <td>CITI</td>       <td>$4,500,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-3\" value=\"on\"/>           </td>    </tr>    <tr>       <td>#4</td>       <td>SS1</td>       <td>Client X</td>       <td>$1,500,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-4\" value=\"on\"/>           </td>    </tr>    <tr>       <td>#5</td>       <td>SS1</td>       <td>Client Y</td>       <td>$1,500,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-5\" value=\"on\"/>           </td>    </tr>    <tr>       <td>#6</td>       <td>SS1</td>       <td>Symphony</td>       <td>$10,000</td>           <td>             <input type=\"checkbox\" name=\"tablesel-row-6\" value=\"on\"/>           </td>    </tr>     </table>     <input type=\"text\" name=\"id1\" placeholder=\"Type OK\" required=\"true\"/>     <button type=\"reset\">Reset</button>                  <button type=\"action\" name=\"select-options\">Confirm</button>             </form>     </div>",
+            "user": {
+                "userId": 349026222345378,
+                "displayName": "firm1_hackathon_bot_147",
+                "email": "firm1_hackathon_bot_147@devmeetup.com",
+                "username": "firm1_hackathon_bot_147"
+            },
+            "stream": {
+                "streamId": "REeNYFJItZeH4KBN5cwvyH___pIp60eodA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:10:28,674 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:10:40,897 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "qaZWABuMDdpNThVSJZqLYX___pIqQHb4dA"
+        },
+        "formStream": {
+            "streamId": "REeNYFJItZeH4KBN5cwvyH///pIp60eodA=="
+        },
+        "formMessageId": "eSMFiAyHAePCZwxPLA4XeH///pIp6jFddA==2545",
+        "formId": "deals",
+        "formValues": {
+            "action": "select-options",
+            "tablesel-row-2": "on",
+            "tablesel-row-3": "on",
+            "tablesel-row-4": "on",
+            "id1": "OK"
+        }
+    }
+}
+2019-10-17 01:10:40,897 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:10:40,901 - root - DEBUG - elements_action_handler
+2019-10-17 01:10:40,901 - root - DEBUG - element submitted :
+2019-10-17 01:10:40,901 - root - DEBUG - {'id': '5d6ZkM', 'messageId': 'YaVoPhKp3fqcv2PW7-Ob_H___pIp6f_3bQ', 'timestamp': 1571254829064, 'type': 'SYMPHONYELEMENTSACTION', 'initiator': {'user': {'userId': 349026222348329, 'firstName': 'minzhe', 'lastName': 'jiang', 'displayName': 'minzhe jiang', 'email': 'echo.jiang@sgcib.com', 'username': 'echo.jiang@sgcib.com'}}, 'payload': {'symphonyElementsAction': {'actionStream': {'streamId': 'qaZWABuMDdpNThVSJZqLYX___pIqQHb4dA'}, 'formStream': {'streamId': 'REeNYFJItZeH4KBN5cwvyH///pIp60eodA=='}, 'formMessageId': 'eSMFiAyHAePCZwxPLA4XeH///pIp6jFddA==2545', 'formId': 'deals', 'formValues': {'action': 'select-options', 'tablesel-row-2': 'on', 'tablesel-row-3': 'on', 'tablesel-row-4': 'on', 'id1': 'OK'}}}}
+2019-10-17 01:10:40,901 - root - DEBUG - entryaction
+2019-10-17 01:10:40,905 - root - DEBUG - entrytablesel-row-2
+2019-10-17 01:10:40,905 - root - DEBUG - entrytablesel-row-3
+2019-10-17 01:10:40,905 - root - DEBUG - entrytablesel-row-4
+2019-10-17 01:10:40,905 - root - DEBUG - entryid1
+2019-10-17 01:10:40,905 - root - DEBUG - MessageClient/send_msg()
+2019-10-17 01:10:46,669 - root - DEBUG - MessageClient/send_msg()
+2019-10-17 01:10:47,505 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:10:48,033 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "0TJ6aqZFJ_7239Fc7cWfEn___pIp6fvzdA",
+            "timestamp": 1571254830097,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Flagging trades #2, #3, #4 to be removed from DUT</div>",
+            "user": {
+                "userId": 349026222345378,
+                "displayName": "firm1_hackathon_bot_147",
+                "email": "firm1_hackathon_bot_147@devmeetup.com",
+                "username": "firm1_hackathon_bot_147"
+            },
+            "stream": {
+                "streamId": "REeNYFJItZeH4KBN5cwvyH___pIp60eodA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:10:48,033 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:10:56,520 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "symphonyElementsAction": {
+        "actionStream": {
+            "streamId": "qaZWABuMDdpNThVSJZqLYX___pIqQHb4dA"
+        },
+        "formStream": {
+            "streamId": "REeNYFJItZeH4KBN5cwvyH///pIp60eodA=="
+        },
+        "formMessageId": "R4Ccvipn6nlKV7w4qWkiZ3///pIp6eTrdA==2561",
+        "formId": "hold_id",
+        "formValues": {
+            "action": "hold-button"
+        }
+    }
+}
+2019-10-17 01:10:56,520 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:10:56,520 - root - DEBUG - elements_action_handler
+2019-10-17 01:10:56,524 - root - DEBUG - element submitted :
+2019-10-17 01:10:56,524 - root - DEBUG - {'id': 'xbma8A', 'messageId': '5WEMYG5m9V5SHMInZCVSUH___pIp6cJDbQ', 'timestamp': 1571254844860, 'type': 'SYMPHONYELEMENTSACTION', 'initiator': {'user': {'userId': 349026222348329, 'firstName': 'minzhe', 'lastName': 'jiang', 'displayName': 'minzhe jiang', 'email': 'echo.jiang@sgcib.com', 'username': 'echo.jiang@sgcib.com'}}, 'payload': {'symphonyElementsAction': {'actionStream': {'streamId': 'qaZWABuMDdpNThVSJZqLYX___pIqQHb4dA'}, 'formStream': {'streamId': 'REeNYFJItZeH4KBN5cwvyH///pIp60eodA=='}, 'formMessageId': 'R4Ccvipn6nlKV7w4qWkiZ3///pIp6eTrdA==2561', 'formId': 'hold_id', 'formValues': {'action': 'hold-button'}}}}
+2019-10-17 01:10:56,524 - root - DEBUG - MessageClient/send_msg()
+2019-10-17 01:10:57,644 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:10:58,264 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "14sN7TxJIpdnkcLOk67TBn___pIp6b8jdA",
+            "timestamp": 1571254845665,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\"><p>Holding NAV</p></div>",
+            "user": {
+                "userId": 349026222345378,
+                "displayName": "firm1_hackathon_bot_147",
+                "email": "firm1_hackathon_bot_147@devmeetup.com",
+                "username": "firm1_hackathon_bot_147"
+            },
+            "stream": {
+                "streamId": "REeNYFJItZeH4KBN5cwvyH___pIp60eodA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:10:58,264 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:10:59,184 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "cHDn30YUTQApAgD0blq7M3___pIp6blldA",
+            "timestamp": 1571254847135,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">   <br/>   <h2>Late Price updated for following commodities</h2>   <form id=\"update_price\">   <table>      <tr>       <th>Comodity</th>       <th>Curency</th>       <th>Code</th>       <th>Price</th>    </tr>      <tr>       <th>Orange Juice</th>       <th>USD</th>       <th>OJX20</th>       <th><input type=\"text\" name=\"id1x\" placeholder=\"price\" required=\"true\" value=\"1.15\"/></th>    </tr>   </table>   <button type=\"action\" name=\"update-button\">Update Price</button>    </form>    </div>",
+            "user": {
+                "userId": 349026222347393,
+                "displayName": "firm2_hackathon_bots_147",
+                "email": "firm2_hackathon_bots_147@devmeetup.com",
+                "username": "firm2_hackathon_bots_147"
+            },
+            "stream": {
+                "streamId": "REeNYFJItZeH4KBN5cwvyH___pIp60eodA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:10:59,184 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:10:59,184 - root - DEBUG - msg_sent_handler function started
+2019-10-17 01:10:59,184 - root - DEBUG - room msg received
+2019-10-17 01:10:59,184 - root - DEBUG - insdie of process
+2019-10-17 01:10:59,192 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:11:11,452 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "mUq_TTaGtLQsIUY_E6GasX___pIp6YdzdA",
+            "timestamp": 1571254859921,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\"><h2>Updating prices for OJX20</h2></div>",
+            "user": {
+                "userId": 349026222347393,
+                "displayName": "firm2_hackathon_bots_147",
+                "email": "firm2_hackathon_bots_147@devmeetup.com",
+                "username": "firm2_hackathon_bots_147"
+            },
+            "stream": {
+                "streamId": "REeNYFJItZeH4KBN5cwvyH___pIp60eodA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:11:11,452 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:11:11,452 - root - DEBUG - msg_sent_handler function started
+2019-10-17 01:11:11,452 - root - DEBUG - room msg received
+2019-10-17 01:11:11,452 - root - DEBUG - insdie of process
+2019-10-17 01:11:11,456 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:11:17,028 - root - DEBUG - DataFeedEventService/read_datafeed() --> Incoming data from read_datafeed(): {
+    "messageSent": {
+        "message": {
+            "messageId": "D3BkBYppW56AbZN9v9eF83___pIp6XFgdA",
+            "timestamp": 1571254865571,
+            "message": "<div data-format=\"PresentationML\" data-version=\"2.0\">Update Successful. Starting NAV Process in 10 minutes                 <form id=\"hold_id\"><button type=\"action\" name=\"hold-button\">Hold</button></form></div>",
+            "user": {
+                "userId": 349026222347393,
+                "displayName": "firm2_hackathon_bots_147",
+                "email": "firm2_hackathon_bots_147@devmeetup.com",
+                "username": "firm2_hackathon_bots_147"
+            },
+            "stream": {
+                "streamId": "REeNYFJItZeH4KBN5cwvyH___pIp60eodA",
+                "streamType": "ROOM"
+            },
+            "externalRecipients": false,
+            "userAgent": "Agent-2.55.9-Linux-4.14.123-86.109.amzn1.x86_64",
+            "originalFormat": "com.symphony.messageml.v2"
+        }
+    }
+}
+2019-10-17 01:11:17,032 - root - DEBUG - DataFeedEventService/handle_event()
+2019-10-17 01:11:17,032 - root - DEBUG - msg_sent_handler function started
+2019-10-17 01:11:17,032 - root - DEBUG - room msg received
+2019-10-17 01:11:17,032 - root - DEBUG - insdie of process
+2019-10-17 01:11:17,036 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:11:47,616 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:11:47,616 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:12:18,336 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:12:18,336 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:12:48,949 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:12:48,953 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:13:19,213 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:13:19,213 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:13:49,677 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:13:49,677 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:14:20,077 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:14:20,081 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:14:50,397 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:14:50,397 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:15:20,808 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:15:20,812 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:15:51,224 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:15:51,224 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:16:21,636 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:16:21,640 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:16:51,948 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:16:51,948 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:17:22,257 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:17:22,257 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:17:52,567 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:17:52,567 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:18:22,796 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:18:22,796 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:18:53,188 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:18:53,188 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:19:23,602 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:19:23,602 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:19:53,912 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:19:53,912 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:20:24,200 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:20:24,200 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:20:54,637 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:20:54,641 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:21:25,147 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:21:25,151 - root - DEBUG - DataFeedClient/read_datafeed()
+2019-10-17 01:21:55,547 - root - DEBUG - DataFeedEventService() - no data coming in from datafeed --> read_datafeed()
+2019-10-17 01:21:55,547 - root - DEBUG - DataFeedClient/read_datafeed()

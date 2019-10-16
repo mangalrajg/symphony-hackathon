@@ -1,0 +1,1 @@
+global_stream_id="dummy"

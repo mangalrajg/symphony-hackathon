@@ -1,0 +1,16 @@
+{
+  "sessionAuthHost": "develop2.symphony.com",
+  "sessionAuthPort": 443,
+  "keyAuthHost": "develop2.symphony.com",
+  "keyAuthPort": 443,
+  "podHost": "develop2.symphony.com",
+  "podPort": 443,
+  "agentHost": "develop2.symphony.com",
+  "agentPort": 443,
+  "botUsername": "firm1_hackathon_bot_147",
+  "botEmailAddress": "firm1_hackathon_bot_147@devmeetup.com",
+  "botPrivateKeyPath": "..\\rsa\\",
+  "botPrivateKeyName": "firm1_innovate_hackathon_bot_147_privatekey.pem",
+  "truststorePath": "",
+  "botRSAPath": "..\\rsa\\"
+}
